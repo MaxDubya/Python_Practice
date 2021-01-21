@@ -2,7 +2,7 @@
 
 ---
 
-### Before you start coding
+## Before you start coding
 
 Before you begin make sure that you pull the code from the repo on github.
 
@@ -13,13 +13,15 @@ To Pull:
 
 ---
 
-## Start Here
+# Begin here after you pull the code
 
-- To start go over the variables.py file. We went over this the first day that we talked about coding you can review that and add to it as much as you yould like.
+- In variables.py I have put some excersices to work on with naming varibles. I will continue to add some over the next few days.
+- In start_here.py I will have a few function challenges that you can try to get the functions to get the outcome that you want.
+- WIP | I will continue to add to the code and we can work from here. If you want me to add anything to the Markdown file let me know I can add pictures of things I didnt go over well.
 
 ---
 
-### After you complete and code that you inted to work on for the day
+## After you complete and code that you inted to work on for the day
 
 Make sure that you Stage, Commit and push all you code to GitHub.
 
@@ -27,4 +29,8 @@ Make sure that you Stage, Commit and push all you code to GitHub.
 
 To Push:
 
-1. Go to the thir tab down and there will be changes shown
+1. Go to the third tab down and there will be changes shown
+2. If there is a single change clik the plus next to the change if there are multiple changes click the pluse next to chnages to stage them all.
+3. Add a commit message. This is just a brief message to let me or any other developers know what you worked on.
+4. Click the check mark above the commit message to commit the changes.
+5. Then either click the 3 dots next to the check mark and select push | Alternatively COntro + Shift + P then typing in Push will get you the same results.
