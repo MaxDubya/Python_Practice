@@ -73,3 +73,7 @@ max_lucky_number = max_lucky_number + 5
 boolean = 3 > 4 and 4 < 3
 
 print(boolean)
+
+print('\n-------------------------------------------------------------------\n')
+
+# Under here there will be some simple variable tests that you can run. I will have them hooked up to test so that you can run them.
