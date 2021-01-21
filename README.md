@@ -23,7 +23,7 @@ To Pull:
 
 Make sure that you Stage, Commit and push all you code to GitHub.
 
-![alt text](Images\Git_Panel_VS_Code.png)
+![alt text](C:\Users\Ricky\Documents\DevelopmentProjects\Python_Practice\Images\Git_Panel_VS_Code.png)
 
 To Push:
 
