@@ -34,3 +34,5 @@ To Push:
 3. Add a commit message. This is just a brief message to let me or any other developers know what you worked on.
 4. Click the check mark above the commit message to commit the changes.
 5. Then either click the 3 dots next to the check mark and select push | Alternatively COntro + Shift + P then typing in Push will get you the same results.
+
+---

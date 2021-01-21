@@ -1,3 +1,9 @@
 {
-    "python.pythonPath": "C:\\Users\\Ricky\\anaconda3\\envs\\learning_env\\python.exe"
+    "python.pythonPath": "C:\\Users\\Ricky\\anaconda3\\envs\\learning_env\\python.exe",
+    "python.testing.pytestArgs": [
+        "CodeTests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true
 }
