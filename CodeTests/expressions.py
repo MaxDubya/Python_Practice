@@ -98,4 +98,6 @@ def multiple_of_3_or_5(num):
 
 
 def make_phone_number(num):
-    pass
+    area = num[0, 2]
+
+    return area
