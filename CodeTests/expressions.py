@@ -75,19 +75,6 @@ def max_end_three(num_list):
 
     return output
 
-
-# Given ten digits in an array format them to make a phone number. Output will be a formatted string
-# make_phone_number([1234567890]) -> (123) 456-7890
-# make_phone_number([5463749876]) -> (546) 374-9876
-# make_phone_number([1087658471]) -> (108) 765-8471
-
-# ***** A little bit more advanced *****
-
-def make_phone_number(num):
-    a = num[0:2]
-
-    return str(a)
-
 # Return true if the given non-negative number is a multiple of 3 or a multiple of 5.
 # (Hint: Think "mod".)
 # Or35(3) → true
@@ -100,3 +87,15 @@ def multiple_of_3_or_5(num):
         return True
     else:
         return False
+
+
+# ***** A little bit more advanced *****
+
+# Given ten digits in an array format them to make a phone number. Output will be a formatted string
+# make_phone_number([1234567890]) -> (123) 456-7890
+# make_phone_number([5463749876]) -> (546) 374-9876
+# make_phone_number([1087658471]) -> (108) 765-8471
+
+
+def make_phone_number(num):
+    pass
