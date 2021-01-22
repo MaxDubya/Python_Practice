@@ -12,7 +12,7 @@ remaining_birds = initial_birds - birds_flew_away
 
 # You dont have to print it. This is to just get you used to naming things and using variables. You can just to see the outcome if you would like.
 # With this excercise you can just hit the play button up top and it will run it in the terminal below. Or use a seperate window if you want.
-print(remaining_birds)
+print(initial_birds)
 
 
 # 2. 3 raccoons are playing in the woods. 2 go home to eat dinner. How
