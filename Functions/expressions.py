@@ -15,6 +15,8 @@ def sleep_in(weekday, vacation):
     else:
         return False
 
+
+
 #  We have two monkeys, a and b, and the parameters aSmile and bSmile indicate if each is smiling.
 #  We are in trouble if they are both smiling or if neither of them is smiling. Return true if we
 #  are in trouble.
@@ -26,10 +28,11 @@ def sleep_in(weekday, vacation):
 # Takes two bools in and returns bools
 
 def monkey_trouble(a_smile, b_smile):
-    if a_smile == True and b_smile == True or a_smile == False and b_smile == False:
+    if a_smile ==True and b_smile ==True or a_smile ==False and b_smile == False:
         return True
     else:
         return False
+
 
 # Given 2 int values, return true if either of them is in the range 10..20 inclusive.
 # In1020(12, 99) → true
@@ -40,53 +43,42 @@ def monkey_trouble(a_smile, b_smile):
 
 
 def in_1020(a, b):
-    if a >= 10 and a <= 20 or b >= 10 and b <= 20:
-        return True
-    else:
-        return False
+    pass
 
 
 # Below here will be practice problems that have to do with lists
 
-# Given an array of ints length 3, figure out which is larger between the first and last elements
-# in the array, and set all the other elements to be that value. Return the changed array.
+# Given an List of ints length 3, figure out which is larger between the first and last elements
+# in the List, and set all the other elements to be that value. Return the changed List.
 # MaxEnd3([1, 2, 3]) → [3, 3, 3]
 # MaxEnd3([11, 5, 9]) → [11, 11, 11]
 # MaxEnd3([2, 11, 3]) → [3, 3, 3]
 
 def max_end_three(num_list):
-    x = 0
-
     output = []
+    save_num = 0
 
-    a = num_list[0]
-    b = num_list[2]
+    if num_list[0] > num_list[2]:
+       save_num = num_list[0]
+    elif num_list[0] < num_list[2]:
+       save_num = num_list[2]
 
-    length = len(num_list)
-
-    if a > b:
-        while x < length:
-            output.append(a)
-            x += 1
-    else:
-        while x < length:
-            output.append(b)
-            x += 1
+    for x in num_list:
+        output.append(save_num) 
 
     return output
 
+
+
 # Return true if the given non-negative number is a multiple of 3 or a multiple of 5.
-# (Hint: Think "mod".)
+# (Hint: Think "mod".) Look up modulo %
 # Or35(3) → true
 # Or35(10) → true
 # Or35(8) → false
 
 
 def multiple_of_3_or_5(num):
-    if num % 3 == 0 or num % 5 == 0:
-        return True
-    else:
-        return False
+    pass
 
 
 # ***** A little bit more advanced *****
@@ -98,6 +90,4 @@ def multiple_of_3_or_5(num):
 
 
 def make_phone_number(num):
-    area = num[0, 2]
-
-    return area
+    pass

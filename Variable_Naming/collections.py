@@ -57,7 +57,7 @@ cars_list = ['Volvo', 'Porsche', 'BMW', 'Pagani', 'Chrysler', 'Dodge', 'Jeep']
 # Sort the list in descending order.
 
 
-# Sort the list case insensitevely? Spelled that wrong, you get the idea.
+# Sort the list case insensitively? Spelled that wrong, you get the idea.
 
 # Reverse the list
 
