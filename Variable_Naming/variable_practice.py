@@ -6,7 +6,7 @@
 
 # Example
 
-initial_birds = 4
+initial_birds = 45
 birds_flew_away = 1
 remaining_birds = initial_birds - birds_flew_away
 
