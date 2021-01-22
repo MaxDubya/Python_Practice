@@ -15,9 +15,11 @@ To Pull:
 
 # Begin here after you pull the code
 
-- In variables.py I have put some excersices to work on with naming varibles. I will continue to add some over the next few days.
-- In start_here.py I will have a few function challenges that you can try to get the functions to get the outcome that you want.
-- WIP | I will continue to add to the code and we can work from here. If you want me to add anything to the Markdown file let me know I can add pictures of things I didnt go over well.
+- [] In the Variable_Naming folder there is a file called variable_practice.py. Start there, there are some excercies in it to get you going on variable naming and use.
+
+- [] Once you are done with variable naming move on to the functions folder. In there are some functions that you will have to write the logic inside of in order to pass a se of tests that I have written.
+
+- [] WIP
 
 ---
 
