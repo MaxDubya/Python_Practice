@@ -9,33 +9,57 @@
 initial_birds = 45
 birds_flew_away = 1
 remaining_birds = initial_birds - birds_flew_away
+print(remaining_birds)
 
 # You dont have to print it. This is to just get you used to naming things and using variables. You can just to see the outcome if you would like.
 # With this excercise you can just hit the play button up top and it will run it in the terminal below. Or use a seperate window if you want.
-print(initial_birds)
-
 
 # 2. 3 raccoons are playing in the woods. 2 go home to eat dinner. How
 # many raccoons are left in the woods?
+
+raccoons_in_the_woods = 3
+raccoons_at_home = 2
+remaining_raccoons = raccoons_in_the_woods - raccoons_at_home
+print(remaining_raccoons)
 
 
 # 3. 2 beavers were working on their home. 1 went for a swim. How many
 # beavers are still working on their home?
 
+beavers_working = 2
+beavers_swimming = 1
+remaining_beavers = beavers_working - beavers_swimming
+print(remaining_beavers)
 
 # 4. Mrs. Hilt's favorite first grade classes are baking muffins. Mrs. Brier's
 # class bakes 18 muffins, Mrs. MacAdams's class bakes 20 muffins, and
 # Mrs. Flannery's class bakes 17 muffins. How many muffins does first
 # grade bake in all?
 
+briers_muffins = 18
+macadams_muffins = 20
+flannerys_muffins = 17
+tot_muffins = briers_muffins + macadams_muffins + flannerys_muffins
+print(tot_muffins)
 
 # 5. (Remember use float for money) Johnny has $20.00 dollars when he leaves the house. He stops and grabs a newspaper which is $2.23.
 # He then stops at the gas station and grabs a roller griller (The gross steak one that has sub human grade steak in it) which is $2.50.
 # Before he gets home he grabs a drink from mcdonalds which is $1.33. How much does Jhonny have when he is done.
 
+johnny_start = 20.0
+newspaper = 2.23
+gross_dogfood_road_steak = 2.50
+drink_from_mcds = 1.33
+remaining_money = johnny_start - newspaper - gross_dogfood_road_steak - drink_from_mcds
+print(remaining_money)
 
 # 6. Josh had 16 marbles in his collection. He lost 7 marbles. How many
 # marbles does he have now?
+
+starting_marbles = 16
+lost_marbles = 7
+remaining_marbles = starting_marbles - lost_marbles
+print(remaining_marbles)
 
 
 # (HINT this will use booleans and compare them to one another to compare bools you will be using the == operator).
